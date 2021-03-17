@@ -1,7 +1,3 @@
--- CptS 355 - Spring 2021 -- Homework1 - Haskell
--- Name: Setenay Guner
--- Collaborators: Went to Sakire's office hours and got help from TAs
-
 module HW1
      where
 
@@ -59,6 +55,3 @@ listhelper [] looking = 0
 listhelper (x:xs) looking
                          | (x == looking) = 1 + (listhelper xs looking)
                          | otherwise = (listhelper xs looking)
-
--- Q4 clusterConsecutive
--- clusterConsecutive [1,2,3,5,6,7,8,9,2,3,11,12]  ->   [[1,2,3],[5,6,7,8,9],[2,3],[11,12]
